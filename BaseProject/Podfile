@@ -42,4 +42,6 @@ pod 'IQKeyboardManager', '3.2.0.3'
 pod 'SDCycleScrollView'
 pod 'QMUIKit'
 pod 'YYKit', '~> 1.0.9'
+#日志      - CocoaLumberjack, 3.3.0
+pod 'CocoaLumberjack'
 end

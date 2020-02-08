@@ -29,6 +29,9 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
   - CYLTabBarController (1.28.5):
     - CYLTabBarController/Core (= 1.28.5)
   - CYLTabBarController/Core (1.28.5)
@@ -348,6 +351,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - BlocksKit (= 2.2.5)
+  - CocoaLumberjack
   - CYLTabBarController (= 1.28.5)
   - CYLTableViewPlaceHolder
   - DZNEmptyDataSet
@@ -370,6 +374,7 @@ SPEC REPOS:
   trunk:
     - AFNetworking
     - BlocksKit
+    - CocoaLumberjack
     - CYLTabBarController
     - CYLTableViewPlaceHolder
     - DZNEmptyDataSet
@@ -392,6 +397,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
   CYLTabBarController: edd9fecba9afa3f2e9e44ed50ca6dde69941f25f
   CYLTableViewPlaceHolder: 678e070180a24e2f241adc7830d5d7f5e2abbaa5
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
@@ -411,6 +417,6 @@ SPEC CHECKSUMS:
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 4b4a53a7ab2730d6ff6f63427b4f412e711eeeea
+PODFILE CHECKSUM: 0a0e83765e47c59c599425c8395f50b3e5cec60d
 
 COCOAPODS: 1.8.4

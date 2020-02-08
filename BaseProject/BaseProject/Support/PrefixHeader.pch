@@ -26,6 +26,7 @@
 #import "UIColor+expanded.h"
 #import <YYKit.h>
 #import "BaseViewController.h"
+#import "FHCategories.h"
 /**
  网络请求的URL
  */
