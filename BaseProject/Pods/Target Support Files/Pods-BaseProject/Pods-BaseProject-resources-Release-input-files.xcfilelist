@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources.sh
+${PODS_ROOT}/IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle
+${PODS_ROOT}/MBProgressHUD+JDragon/MBProgressHUD+JDragon/MBProgressHUD+JDragon.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/QMUIKit/QMUIResources.bundle

@@ -1,0 +1,45 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'BaseProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  # use_frameworks!
+
+#刷新动画      - MJRefresh, 3.1.15.1
+pod 'MJRefresh'
+pod 'MJExtension'
+#图片加载封装      - SDWebImage, 4.2.2
+pod 'SDWebImage', '~> 4.0'
+#Block封装      - BlocksKit, 2.2.5
+pod 'BlocksKit', '2.2.5'
+#布局      - Masonry, 1.1.0
+pod 'Masonry'
+#网络请求      - AFNetworking, 3.1.0
+pod 'AFNetworking', '~> 3.0'
+#Loading
+pod 'MBProgressHUD+JDragon'
+
+#常用框架
+#正则表达式封装      - RegexKitLite-NoWarning, 1.1.0
+pod 'RegexKitLite-NoWarning', '1.1.0'
+#侧滑菜单      - LGSideMenuController, 2.1.1
+pod 'LGSideMenuController'
+#空TableView占位视图      - CYLTableViewPlaceHolder, 1.0.8
+pod 'CYLTableViewPlaceHolder'
+#空白数据集显示框架          - DZNEmptyDataSet, 1.8.1
+pod 'DZNEmptyDataSet'
+#侧滑Cell      - SWTableViewCell, 0.3.7
+pod 'SWTableViewCell', '~> 0.3.7'
+#TableViewCell自动优化计算      - UITableView+FDTemplateLayoutCell, 1.6
+pod 'UITableView+FDTemplateLayoutCell'
+#TabBar框架      - CYLTabBarController, 1.17.22
+pod 'CYLTabBarController','1.28.5'
+#富文本
+pod 'TTTAttributedLabel'
+#键盘管理      - IQKeyboardManager, 3.2.0.3
+pod 'IQKeyboardManager', '3.2.0.3'
+#轮播图
+pod 'SDCycleScrollView'
+pod 'QMUIKit'
+pod 'YYKit', '~> 1.0.9'
+end
