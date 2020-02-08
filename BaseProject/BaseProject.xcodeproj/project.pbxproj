@@ -24,6 +24,7 @@
 		A18FD0BA23EE5B0000859A24 /* BaseMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FD0B923EE5B0000859A24 /* BaseMeViewController.m */; };
 		A18FD0BD23EE5B0D00859A24 /* BaseHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FD0BC23EE5B0D00859A24 /* BaseHomeViewController.m */; };
 		A18FD0C123EE66F200859A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18FD0BF23EE66F200859A24 /* Main.storyboard */; };
+		A18FD0C623EEA80C00859A24 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18FD0C523EEA80C00859A24 /* BaseViewController.m */; };
 		A1B5B0E023EDE526005A9235 /* BaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B5B0DF23EDE526005A9235 /* BaseProjectTests.m */; };
 		A1B5B0EB23EDE527005A9235 /* BaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B5B0EA23EDE527005A9235 /* BaseProjectUITests.m */; };
 		D48052124334AC035BFC4575 /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 045F68CC8736E4FF06713E06 /* libPods-BaseProject.a */; };
@@ -82,6 +83,8 @@
 		A18FD0BB23EE5B0D00859A24 /* BaseHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseHomeViewController.h; sourceTree = "<group>"; };
 		A18FD0BC23EE5B0D00859A24 /* BaseHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseHomeViewController.m; sourceTree = "<group>"; };
 		A18FD0C023EE66F200859A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		A18FD0C423EEA80C00859A24 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A18FD0C523EEA80C00859A24 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		A1B5B0C023EDE524005A9235 /* BaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B5B0DB23EDE526005A9235 /* BaseProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B5B0DF23EDE526005A9235 /* BaseProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseProjectTests.m; sourceTree = "<group>"; };
@@ -250,6 +253,25 @@
 			path = ../../../../../../.Trash/Support/Base.lproj;
 			sourceTree = "<group>";
 		};
+		A18FD0C223EEA7D700859A24 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A18FD0C323EEA7EF00859A24 /* BaseClass */,
+				A18FD0AE23EE0B4800859A24 /* Macro */,
+				A18FD0B023EE0C6E00859A24 /* Category */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		A18FD0C323EEA7EF00859A24 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				A18FD0C423EEA80C00859A24 /* BaseViewController.h */,
+				A18FD0C523EEA80C00859A24 /* BaseViewController.m */,
+			);
+			name = BaseClass;
+			sourceTree = "<group>";
+		};
 		A1B5B0B723EDE524005A9235 = {
 			isa = PBXGroup;
 			children = (
@@ -276,11 +298,10 @@
 			isa = PBXGroup;
 			children = (
 				A18FD0B523EE5A9F00859A24 /* Main */,
+				A18FD0C223EEA7D700859A24 /* Common */,
 				A18FD08723EE04F700859A24 /* Support */,
 				A18FD09B23EE055400859A24 /* Service */,
 				A18FD07D23EE034600859A24 /* Vender */,
-				A18FD0AE23EE0B4800859A24 /* Macro */,
-				A18FD0B023EE0C6E00859A24 /* Category */,
 			);
 			path = BaseProject;
 			sourceTree = "<group>";
@@ -501,6 +522,7 @@
 				A18FD0A223EE05FF00859A24 /* CYLTabBarControllerConfig.m in Sources */,
 				A18FD0B323EE0C8A00859A24 /* UIColor+expanded.m in Sources */,
 				A18FD09623EE04F700859A24 /* SceneDelegate.m in Sources */,
+				A18FD0C623EEA80C00859A24 /* BaseViewController.m in Sources */,
 				A18FD08623EE036900859A24 /* WWNetworkCache.m in Sources */,
 				A18FD0A823EE063600859A24 /* KLTNavigationController.m in Sources */,
 				A18FD0AD23EE0AA600859A24 /* BBNavigationController.m in Sources */,

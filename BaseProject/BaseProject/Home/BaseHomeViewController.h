@@ -10,9 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 /**
-类说明：
+类说明：首页
 */
-@interface BaseHomeViewController : UIViewController
+@interface BaseHomeViewController : BaseViewController
 
 @end
 

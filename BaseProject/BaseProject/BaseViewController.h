@@ -1,5 +1,5 @@
 //
-//  BaseMeViewController.h
+//  BaseViewController.h
 //  BaseProject
 //
 //  Created by chenfeihong on 2020/2/8.
@@ -10,9 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 /**
-类说明：我的页面
+类说明：基础类，所有的类继承的根类都应该是这个基础类
 */
-@interface BaseMeViewController : BaseViewController
+@interface BaseViewController : UIViewController
 
 @end
 
